@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000428;
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    background: linear-gradient(to right, #004e92, #000428);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 30px 0;
+}
+
+.main-content {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.budget {
+    font-weight: 700;
+}
+
+.budget p span {
+    font-weight: 400;
+}
+
+#expenses {
+    margin-bottom: 55px;
+}
+
+h1 {
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 100;
+    color: #004e92;
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.content {
+    width: 100%;
+    max-width: 470px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group__input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: all .15s ease-out;
+}
+
+.form-group__input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 3px rgb(0 123 255 / 25%);
+}
+
+.budget-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+}
+
+.budget-success {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
+.budget-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+}
+
+.budget-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+.budget {
+    position: relative;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.added {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.error {
+    background-color: #FBE9E7;
+    border: 1px solid #F4511E;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #F4511E;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.expenses ul li {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 5px;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.expenses__amount {
+    background-color: #007bff;
+    border-radius: 8px;
+    padding: 0 25px;
+    color: #fff;
+    font-weight: 700;
+}
